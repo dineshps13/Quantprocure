@@ -1,0 +1,1 @@
+"""Quantprocure bidding system package."""
