@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quant Procure PunchOut Catalog</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Quant Procure — PunchOut Catalog</h1>
+      <p>Coupa PunchOut demo storefront with 5 items</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Catalog</h2>
+        <div id="catalog" class="grid"></div>
+      </section>
+
+      <section>
+        <h2>Cart</h2>
+        <div id="cart"></div>
+        <div class="actions">
+          <label>
+            Coupa Return URL
+            <input id="returnUrl" value="https://buyer.coupahost.com/punchout/return" />
+          </label>
+          <button id="checkoutBtn">Checkout to Coupa</button>
+        </div>
+        <pre id="result"></pre>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
